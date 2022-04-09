@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="7" viewBox="0 0 4 7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3556d3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="str-pod.svg" class="cls-1" d="M1537,3389h1v1h-1v-1Zm1,1h1v1h-1v-1Zm1,1h1v1h-1v-1Zm-1,1h1v1h-1v-1Zm-1,1h1v1h-1v-1Zm-1-5h1v1h-1v-1Zm0,6h1v1h-1v-1Z" transform="translate(-1536 -3388)"/>
+</svg>

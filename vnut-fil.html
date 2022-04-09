@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+	<meta name="description" content="{$page.description|escape}">
+	<meta name="keywords" content="avto, автомобиль, сервис,">
+	<link rel="canonical" href="http://{$smarty.server.HTTP_HOST}{$smarty.server.SCRIPT_URL}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Кондиционер</title>
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/remodal.css">
+	<link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.theme.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<!-- END_FONTS -->
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/vn-main.css">
+	
+</head>
+<body>
+	<div class="site-wrap">
+		<div class="dark-fn"></div>
+
+	<div class="site-vnut">
+		<header class="header">
+		
+			<div class="header-mid">
+				<div class="centered d-fl">
+					<div class="header-logo">
+						<!-- <img src="logo.svg" alt=""> -->
+						<a href="index.html" class="header-logo__tit">Название сервиса</a>
+						<span>Ремонт автомобилей</span>
+					</div>
+					<div class="header-number">
+						<a href="tel:9999999999">+998 (00) 000 00 00</a>
+						<a href="tel:9999999999">+998 (00) 000 00 00</a>
+						<div class="header-number__pic">
+							<img src="img/phone.svg" alt="">
+						</div>	
+					</div>
+					<div class="header-address">
+						г. Ташкент ул, Ровная д. 14
+						<div class="header-address__pic">
+							<img src="img/location.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="header-top">
+				<div class="centered d-fl">
+					<div class="burger-menu"><img src="img/burger.svg" alt=""></div>
+					<div class="menu-close"></div>
+					<nav class="header__nav">
+						<ul id="main-menu" class="header-menu">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="vn.html">Услуги</a></li>
+							<li><a href="vn-about.html">О нас</a></li>
+							<li class="active"><a href="vnut-news.html">Новости</a></li>
+							<li><a href="index-vnut.html">Порядок работ</a></li>
+							<li><a href="vnut-gal.html">Галерея</a></li>
+							<li class="">
+								<a href="vn-ser.html">Почему мы</a>
+								<span></span>
+								<ul class="">
+									<li><a href="vnut-form.html">Новостройки</a></li>
+									<li><a href="vnut-prod.html">Вторичный рынок</a></li>
+									<li><a href="#">Земельные участки</a></li>
+									<li><a href="#">Дома</a></li>
+									<li><a href="#">Нежилые помещения</a></li>
+								</ul>
+							</li>
+							<li><a href="vnut-review.html">Отзывы</a></li>
+							<li><a href="vnut-form.html">Обратная связь</a></li>
+							<li><a href="vnut-contact.html">Контакты</a></li>
+						</ul>
+					</nav>
+			    </div> 
+			</div>	
+			
+			<div class="header-slid">
+				<div class="sl-pic">
+					<img src="img/kond.png" alt="">
+					<div class="garant">
+						<div class="lines">3</div>
+						<span>года гарантия</span>
+					</div>
+				</div>
+				<div class="slid-bl">
+					<div class="slid-bl__item centered">
+						<div class="slid-bl__item-tit">
+						Закажи у нас и мы сделаем дешевле чем у других
+						</div>
+						<button data-remodal-target="modal1">Обратная связь</button>
+					</div>
+				</div>
+				<div class="centered">
+					<div class="sl-mid d-fl">
+						<div class="sl-mid__item">
+							<div class="sl-mid__item-pic"><img src="img/sl1.svg" alt=""></div>
+							<div class="sl-mid__item-tit">Опытные сотрудники</div>
+							<div class="sl-mid__item-txt">Мы много лет работаем в сфере продажи и установки кондиционеров, не боимся сложных проектов и знаем все нюансы.</div>
+						</div>
+			
+						<div class="sl-mid__item">
+							<div class="sl-mid__item-pic"><img src="img/sl2.svg" alt=""></div>
+							<div class="sl-mid__item-tit">Регулярное обновление ассортимента</div>
+							<div class="sl-mid__item-txt">Всегда в наличии самые популярные модели и новинки.</div>
+						</div>
+			
+						<div class="sl-mid__item">
+							<div class="sl-mid__item-pic"><img src="img/sl3.svg" alt=""></div>
+							<div class="sl-mid__item-tit">Быстрая доставка и монтаж</div>
+							<div class="sl-mid__item-txt">Кондиционер доставят и сразу установят наши специалисты по монтажу.</div>
+						</div>
+					</div>
+				</div>
+				<div class="sl-bot centered fl-wrap">
+					<div class="sl-bot__item">
+						<img src="img/p1.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p2.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p3.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p4.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p5.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p6.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p7.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p8.jpg" alt="">				
+					</div>
+					<div class="sl-bot__item">
+						<img src="img/p9.jpg" alt="">				
+					</div>
+				</div>
+			</div>
+			
+		
+			
+		</header> <!-- .header -->
+		
+		<main>
+				<div class="site-vnut-content">
+				<div class="wrapper-centered">
+					<div class="left__content">
+						<nav class="left-content__menu">
+							<ul class="left-content__nav">
+								<li class="active"><a href="">Земельные споры  Жилищные споры</a></li>
+								<li><a href="">Налоговые споры</a>
+									<span></span>
+									<ul class="left-content__nav-dropdown">
+										<li><a href="">тестовый подпункт</a></li>
+										<li><a href="">тестовый подпункт</a></li>
+										<li><a href="">тестовый подпункт</a></li>
+									</ul>
+								</li>
+								<li><a href="">Наследственные дела</a></li>
+								<li><a href="">Защита по уголовным делам</a></li>
+								<li><a href="">Административные споры</a></li>
+								<li><a href="">Защита прав дольщиков</a></li>
+							</ul>
+						</nav>
+					
+						<div class="edit-block">
+							<div class="edit-block__about">
+								<div class="edit-block__title">
+									Редактируемый блок
+								</div>
+								<div class="edit-block__text">
+									Я уже писала о том, что можно 
+									сделать редактируемый блок 
+									при помощи атрибута 
+									contenteditable Редактируемый 
+									блок), а теперь сделаем 
+									аналогичную версию 
+									редактируемости, но при 
+									помощи JavaScript.
+								</div>
+								<a  class="edit-block__link" href="#">Подробнее</a>
+							</div>
+							<div class="edit-block__pic">
+								<img src="img/k5.jpg" alt="">
+							</div>
+						</div>
+						<div class="content__bottom">
+							<div class="informer">Информеры</div>
+						</div>
+					</div>
+					<div class="main-content main-contact-content">
+						<div class="content-breadcrump">
+							<ul class="content-breadcrump__bl">
+								<li class="content-breadcrump__bl-item"><a href="#">Главная</a></li>
+								<li class="content-breadcrump__bl-item active">Продукции</li>
+							</ul>
+						</div>
+						<h1 class="main-content__title">Продукции</h1>
+						
+						<div class="main-content__new fl-wrap j-btw">
+							<a href="vn-ser.html" class="ser-bl__item">
+								<span class="bord"></span>
+								<div class="ser-bl__item-ic"><img src="img/k1.jpg" alt=""></div>
+								<div class="ser-bl__item-tit">Cплит-система ASW-H09A4/FJ-(W/S/B) R1 AS-H09A4/FJ-R1</div>
+								<div class="ser-bl__item-info">Производитель: AUX Серия: FJ ON-OFF</div>
+								<div class="ser-bl__item-count">2 500 860 сум.</div>
+								<span class="btn-mod">Подробнее</span>
+							</a>
+
+							<a href="vn-ser.html" class="ser-bl__item">
+								<span class="bord"></span>
+								<div class="ser-bl__item-ic"><img src="img/k1.jpg" alt=""></div>
+								<div class="ser-bl__item-tit">Cплит-система ASW-H09A4/FJ-(W/S/B) R1 AS-H09A4/FJ-R1</div>
+								<div class="ser-bl__item-info">Производитель: AUX Серия: FJ ON-OFF</div>
+								<div class="ser-bl__item-count">2 500 860 сум.</div>
+								<span class="btn-mod">Подробнее</span>
+							</a>
+
+							<a href="vn-ser.html" class="ser-bl__item">
+								<span class="bord"></span>
+								<div class="ser-bl__item-ic"><img src="img/k1.jpg" alt=""></div>
+								<div class="ser-bl__item-tit">Cплит-система ASW-H09A4/FJ-(W/S/B) R1 AS-H09A4/FJ-R1</div>
+								<div class="ser-bl__item-info">Производитель: AUX Серия: FJ ON-OFF</div>
+								<div class="ser-bl__item-count">2 500 860 сум.</div>
+								<span class="btn-mod">Подробнее</span>
+							</a>
+
+							<a href="vn-ser.html" class="ser-bl__item">
+								<span class="bord"></span>
+								<div class="ser-bl__item-ic"><img src="img/k1.jpg" alt=""></div>
+								<div class="ser-bl__item-tit">Cплит-система ASW-H09A4/FJ-(W/S/B) R1 AS-H09A4/FJ-R1</div>
+								<div class="ser-bl__item-info">Производитель: AUX Серия: FJ ON-OFF</div>
+								<div class="ser-bl__item-count">2 500 860 сум.</div>
+								<span class="btn-mod">Подробнее</span>
+							</a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="remodal" data-remodal-id="modal1">
+		  <button data-remodal-action="close" class="remodal-close"><img src="img/modal-close.svg" alt=""></button>
+		  <div class="mod-title">Обратная связь</div>
+		  <form action="" class="mod-form">
+		  	<div class="mod-form__item">
+				<label for=""></label>
+				<input type="text" placeholder="Введите Ваше имя">
+			</div>
+			<div class="mod-form__item">
+				<label for=""></label>
+				<input type="text" placeholder="Ваш телефон">
+			</div>
+			<div class="mod-form__item">
+				<textarea name="testarea" id="tets" cols="30" rows="10" placeholder="Комментарии"></textarea>
+			</div>
+			<div class="mod-form__chek">
+				<label for="">
+					<input type="checkbox">
+					Я подтверждаю свое согласие  на обработку
+					моих персональных данных
+				</label>
+			</div>
+			<div class="mod-form__item">
+				<button type="submit">Отправить</button>
+			</div>		
+		  </form>
+		  
+		</div>
+		
+		<div class="remodal" data-remodal-id="modal2">
+		  <button data-remodal-action="close" class="remodal-close"><img src="img/modal-close.svg" alt=""></button>
+		  <div class="mod-title">Обратная связь</div>
+		  <form action="" class="mod-form">
+		  	<div class="mod-form__item">
+				<label for=""></label>
+				<input type="text" placeholder="Введите Ваше имя">
+			</div>
+			<div class="mod-form__item">
+				<label for=""></label>
+				<input type="text" placeholder="Ваш телефон">
+			</div>
+			<div class="mod-form__item">
+				<textarea name="testarea" id="tets" cols="30" rows="10" placeholder="Комментарии"></textarea>
+			</div>
+			<div class="mod-form__chek">
+				<label for="">
+					<input type="checkbox">
+					Я подтверждаю свое согласие  на обработку
+					моих персональных данных
+				</label>
+			</div>
+			<div class="mod-form__item">
+				<button type="submit">Отправить</button>
+			</div>		
+		  </form>
+		  
+		</div>
+		<footer class="fot">
+			<a href="#top" class="button-up"><img src="img/uppp.svg" alt=""></a>
+			<div class="centered">
+				<div class="fot-top">
+					<nav class="fot-menu">
+						<ul>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Туры</a></li>
+							<li><a href="#">Партнеры</a></li>
+							<li><a href="#">Документы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="ft-top fl-wrap j-btw">
+						<div class="ft-top__item ft-top__tel">
+							<img class="img-f" src="img/phone1.svg" alt="">
+							<a href="tel:70000000000" class="fot-top__item-tel">+7 (000) 000 00 00</a>
+							<a href="tel:70000000000" class="fot-top__item-tel">+7 (000) 000 00 00</a>
+						</div>
+						<div class=" ft-top__item ft-top__hour">	
+							<img class="img-f" src="img/watch1.svg" alt="">
+							пн-пт: с 9:00 до 17:00 сб-вс: выходной
+						</div>
+						
+		
+						<div class="ft-top__item ft-top__mail">	
+							<img class="img-f" src="img/maill1.svg" alt="">	
+							<a href="mailto:olga5_2004@mail.ru">olga5_2004@mail.ru</a>
+						</div>
+		
+						<div class="ft-top__item ft-top__ad">	
+							<img class="img-f" src="img/address1.svg" alt="">
+							г. Фергана, ул. Пахлавон Махмуд
+						</div>
+					</div>
+		
+					<div class="fot-mid fl-wrap j-btw">
+						<div class="fot-mid__soc">
+							<div class="soc-tit">Мы в соц сетях:</div>
+							<a href=""><img src="img/s1.png" alt=""></a>
+							<a href=""><img src="img/s2.png" alt=""></a>
+							<a href=""><img src="img/s3.png" alt=""></a>
+							<a href=""><img src="img/s4.png" alt=""></a>
+							<a href=""><img src="img/s5.png" alt=""></a>
+						</div>
+		
+						<div class="fot-mid__polity">
+							Расчет и цены представленные на сайте не являются публичной афертой 
+							и представлены в ознакомительных целях. Итоговая стоимость на сайте 
+							может отличаться от фактической стоимости в нашей фирме. 
+							<a href="#">Политика конфеденциальности.</a>
+						</div>
+		
+						<div class="fot-mid__copy">
+							<span>Copyright © 2019</span>
+							<a href="">Название компании</a>
+							<a href="#" class="fot-bot-copy__ds">Разработано в компании Redimer</a>
+						</div>		
+					</div>
+				</div>	
+			</div>
+		<!-- 	<div class="map">
+				<iframe width="100%" height="100%" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/ru/">embedgooglemaps RU</a> & <a href="https://iamsterdamcard.it">iamsterdam card.it</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+			</div> -->
+		</footer>
+		<!-- .site-footer -->
+	</div>
+
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/remodal.min.js"></script>
+	<script type="text/javascript" src="js/jquery.formstyler.min.js"></script>
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/flexmenu.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!-- SLIDER FILTER END -->
+
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	<!-- Developer by OOO Redimer  -->
+</body>
+</html>

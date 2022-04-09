@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <path id="btn-more.svg" class="cls-1" d="M1047.29,3456.71a0.984,0.984,0,0,0,1.4,0l7.02-7.02a0.99,0.99,0,1,0-1.4-1.4l-7.02,7.02A0.984,0.984,0,0,0,1047.29,3456.71Zm0-15.42a0.984,0.984,0,0,1,1.4,0l7.02,7.02a0.99,0.99,0,1,1-1.4,1.4l-7.02-7.02A0.984,0.984,0,0,1,1047.29,3441.29Z" transform="translate(-1046.5 -3440.5)"/>
+</svg>
